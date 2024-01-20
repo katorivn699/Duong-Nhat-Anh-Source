@@ -14,6 +14,7 @@ h1 {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: blueviolet;
+    justify-content: baseline;
 }
 
 header {
@@ -23,10 +24,12 @@ header {
 }
 main{
     background-color: aliceblue;
+    align-items: center;
 }
 
 img {
     margin: 0%;
+    row-gap: inherit;
 }
 
 footer {
