@@ -123,3 +123,9 @@ body {
     left: calc(var(--circle-size) / 2 * -1);
     pointer-events: none;
 }
+ul{
+    list-style: none;
+}
+ul li{
+    margin-bottom: 5px;
+}
