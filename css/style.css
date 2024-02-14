@@ -42,8 +42,8 @@ main {
 }
 
 .expen {
-    width: 35vw; 
-    height: 5vw; 
+    width: 35vw;
+    height: 5vw;
     background: #2db34a;
     line-height: 5vw;
     text-align: center;
@@ -57,7 +57,7 @@ main {
 }
 
 .expen:hover {
-    width: 75vw; 
+    width: 75vw;
     color: black;
     align-items: center;
     transition-duration: 2s;
@@ -69,9 +69,11 @@ main {
     align-items: center;
     text-align: center;
     color: #004AAD;
+    margin-top: 1vw;
 }
 
 .imgani {
+    margin-top: 1vw;
     width: 15vw;
     transition-duration: 1s;
 }
@@ -94,6 +96,7 @@ footer {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2vw;
     color: coral;
+    margin-bottom: 1vw;
 }
 
 * {
@@ -118,9 +121,38 @@ body {
     left: calc(var(--circle-size) / 2 * -1);
     pointer-events: none;
 }
-ul{
+
+.listhappy {
     list-style: none;
 }
-ul li{
+
+.elementhappy {
     margin-bottom: 5px;
+}
+
+.navi {
+    background-color: #333;
+    overflow: hidden;
+    align-items: end;
+}
+
+.navi a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition-duration: 0.5s;
+}
+
+.navi a:hover {
+    background-color: #ddd;
+    color: black;
+    transition-duration: 0.5s;
+}
+
+.navi a.active {
+    background-color: #04AA6D;
+    color: white;
 }
