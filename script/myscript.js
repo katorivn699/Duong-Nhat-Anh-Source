@@ -7,7 +7,7 @@ function startTime() {
     s = checkTime(s);
     document.getElementById('txt').innerHTML =
         h + ":" + m + ":" + s;
-    var t = setTimeout(startTime, 1);
+    var t = setTimeout(startTime, 20);
 }
 
 function startDate() {

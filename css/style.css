@@ -3,24 +3,19 @@
 p {
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 25px;
+    font-size: 1.5vw;
 
-}
-
-.donghop {
-    display: inline;
-    margin: 5px;
 }
 
 .ani {
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 25px;
+    font-size: 1.5vw;
     transition-duration: 1s;
 }
 
 .ani:hover {
-    font-size: 50px;
+    font-size: 3vw;
     transition-duration: 2s;
 }
 
@@ -29,12 +24,12 @@ h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: blueviolet;
     justify-content: baseline;
+    font-size: 3vw;
 }
 
 header {
     background-color: aliceblue;
     text-align: center;
-    padding: 100px;
 }
 
 main {
@@ -47,10 +42,10 @@ main {
 }
 
 .expen {
-    width: 500px;
-    height: 100px;
+    width: 35vw; 
+    height: 5vw; 
     background: #2db34a;
-    line-height: 100px;
+    line-height: 5vw;
     text-align: center;
     align-items: center;
     margin: 0 auto;
@@ -62,7 +57,7 @@ main {
 }
 
 .expen:hover {
-    width: 1000px;
+    width: 75vw; 
     color: black;
     align-items: center;
     transition-duration: 2s;
@@ -70,7 +65,7 @@ main {
 
 #txt {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 50px;
+    font-size: 3vw;
     align-items: center;
     text-align: center;
     color: #004AAD;
@@ -88,8 +83,8 @@ main {
 }
 
 footer {
-    padding: 100px;
-    margin-top: 20px;
+    padding: 5vw;
+    margin-top: 2vw;
     background-color: greenyellow;
 
 }
@@ -97,7 +92,7 @@ footer {
 
 #date {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px;
+    font-size: 3vw;
     color: coral;
 }
 
