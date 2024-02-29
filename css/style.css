@@ -110,18 +110,6 @@ body {
     background-color: #ffffff;
 }
 
-.circle {
-    --circle-size: 40px;
-    position: fixed;
-    height: var(--circle-size);
-    width: var(--circle-size);
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 100%;
-    top: calc(var(--circle-size) / 2 * -1);
-    left: calc(var(--circle-size) / 2 * -1);
-    pointer-events: none;
-}
-
 .listhappy {
     list-style: none;
 }
