@@ -27,10 +27,6 @@ h1 {
     font-size: 3vw;
 }
 
-header {
-    background-color: aliceblue;
-    text-align: center;
-}
 
 main {
     margin-top: 1vw;
@@ -40,6 +36,11 @@ main {
     align-items: center;
     justify-content: center;
 }
+
+.content-main{
+    text-align: center;
+}
+
 
 .expen {
     width: 35vw;
@@ -56,12 +57,22 @@ main {
 
 }
 
+.contain-happyNewyear{
+    align-items: center;
+}
+
 .expen:hover {
     width: 75vw;
     color: black;
     align-items: center;
     transition-duration: 2s;
 }
+
+.myface{
+    position: sticky;
+    text-align: center;
+}
+
 
 #txt {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -76,6 +87,7 @@ main {
     margin-top: 1vw;
     width: 15vw;
     transition-duration: 1s;
+    
 }
 
 .imgani:hover {
@@ -97,6 +109,7 @@ footer {
     font-size: 2vw;
     color: coral;
     margin-bottom: 1vw;
+    text-align: center;
 }
 
 * {
