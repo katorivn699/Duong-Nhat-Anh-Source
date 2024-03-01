@@ -26,11 +26,15 @@ p {
 
 .content-name {
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-style: normal;
     color: blueviolet;
-    justify-content: baseline;
+    justify-content: flex-end;
     font-size: 1vw;
+    margin-inline: 2vw;
 }
+
 
 
 main {
@@ -47,6 +51,16 @@ main {
     width: 100vw;
     height: auto;
     background-color: white;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 25%);
+}
+
+.contain-imgcute{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    background-color: white;
+    display: ruby-text;
+    align-items: center;
+    justify-content: center;
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 25%);
 }
 
@@ -184,8 +198,26 @@ header .content-fluid {
     align-items: center;
     justify-content: space-between;
 }
+@media only screen and (max-width: 960px){
+    header .content-fluid {
+        width: 100%;
+        padding: 0 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
-header .navb-items{
+    header .navb-items {
+        display: flex;
+        align-items: center;
+        margin-top: 5vw;
+        justify-content: center;
+        letter-spacing: 3px;
+        font-size: 1.5vw;
+    }
+}
+
+header .navb-items {
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -193,10 +225,20 @@ header .navb-items{
     font-size: 1.5vw;
 }
 
-header .item{
+header .item {
     text-align: center;
     margin-inline: 15%;
 }
+
 .imgface {
     width: 7.5vb;
+    border-radius: 35%;
+}
+
+.content-left{
+    display: flex;
+    padding-top: 0.5vw;
+    padding-left: 2%;
+    align-items: center;
+    justify-content: space-between;
 }
